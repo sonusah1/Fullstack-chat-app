@@ -1,0 +1,40 @@
+import daisyui from 'daisyui'
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [daisyui],
+  daisyui:{
+    themes:[
+      "light",
+      "dark",
+      "cupcake",
+      "bumblebee",
+      "emerald",
+      "corporate",
+      "synthwave",
+      "retro",
+      "cyberpunk",
+      "japan",
+      "plain",
+      "superhero",
+      "yui",
+      "minimal",
+      "dracula",
+      "cmyk",
+      "cyborg",
+      "synthwave",
+      "valentine",
+      "winter",
+      "lofi",
+      "pastel",
+      "coffee",
+      "luxury"
+    ]
+  }
+}
